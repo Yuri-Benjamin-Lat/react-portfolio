@@ -1,0 +1,315 @@
+.header-background {
+  background-image:  linear-gradient(to top, #f8f4eb 0%, transparent 20%),
+                     url("assets/background1.jpg");
+  background-repeat: no-repeat;      /* don't tile the image */
+  background-size: cover;           /* scale image to cover entire screen */
+  height: 100vh; /* full screen height */
+}
+
+.footer-background {
+  background-image:  linear-gradient(to bottom, #f8f4eb 0%, transparent 30%),
+                     url("assets/footer2.jpg");
+  background-repeat: no-repeat;      /* don't tile the image */
+  background-size: cover;           /* scale image to cover entire screen */
+  background-position: center;
+  width: 100%;
+  height: 49.5vh;;
+  
+}
+
+.temp-border {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.temp-border1 {
+  padding: 25px;
+  border: 2px #f8f4eb;
+}
+
+.temp-border2 {
+  padding: 10px;
+  border: 0.2rem solid #2f4f57;
+}
+
+.all-padding {
+  padding: 20px 50px 20px 50px;
+}
+
+/* START OF Big Headers style */
+.my-h1 {
+  font-size: 4.5rem;
+  letter-spacing: 5px;
+  line-height: 1.2;
+  font-family: Impact, sans-serif;
+  font-weight: 100;
+  color: #2f4f57;
+  text-shadow: 
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+  transform: scaleY(1.2);
+}
+/* END OF Big Headers style */
+
+/* START OF Header - Navigation bar CSS */
+.my-navbar {
+  justify-content: space-between;
+}
+
+.fphome {
+  width: 100px;
+  height: auto;
+}
+
+.my-navbar-button {
+  color: #2f4f57;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-family: 'Lucida Console', monospace;
+  letter-spacing: 1px;  
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.hero-padding {
+  padding: 0px 15px 0px 15px;
+}
+
+.flex1 {
+  display: flex;
+  gap: 10px;      /* space between items */
+  flex-wrap: wrap; /* prevents overflow */
+}
+/* END OF Header - Navigation bar CSS */
+
+/* Start of Body CSS */
+.my-caption-padding {
+  padding: 30px 0px 35px 0px;
+  text-align: center;
+}
+
+.my-caption-margin {
+  margin: 0px 300px 0px 0px;
+}
+
+.my-caption-margin2 {
+  margin: 0px 0px 0px 300px;
+}
+
+.cloud-bg {
+  background-image: url("assets/bgcloud.jpg");
+  background-repeat: no-repeat;      /* don't tile the image */
+  background-size: cover;           /* scale image to cover entire screen */
+  background-position: center;
+  border-radius: 20px;
+}
+
+.cloud-bg1 {
+  background-image: url("assets/bgcloud1.jpg");
+  background-repeat: no-repeat;      /* don't tile the image */
+  background-size: cover;           /* scale image to cover entire screen */
+  background-position: center;
+  border-radius: 20px;
+}
+
+.cloudbox-padding {
+  padding: 0px 50px 0px 50px;
+}
+
+.brute-padding {
+  padding: 0px 50px 0px 50px;
+}
+
+.inner-cloud-container {
+  margin: 10px;
+  height: calc(100% - 20px); /* 100% minus top and bottom margins */
+  width: calc(100% - 20px);  /* 100% minus left and right margins */
+  box-sizing: border-box;
+  border: 0.1rem solid #2f4f57;
+  padding: 10px;
+  border-radius: 20px;
+  background: #d4e5e929;
+  backdrop-filter: blur(5px);
+}
+
+.inner-cloud-container1 {
+  margin: 10px;
+  height: calc(100% - 20px); /* 100% minus top and bottom margins */
+  width: calc(100% - 20px);  /* 100% minus left and right margins */
+  box-sizing: border-box;
+  border: 0.2rem solid #2f4f57;
+  padding: 10px;
+  border-radius: 20px;
+  background: #d4e5e929;
+  backdrop-filter: blur(5px);
+  animation: cloudTilt 9s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes cloudTilt {
+  0% {
+    transform: rotate(-1.5deg);
+  }
+  50% {
+    transform: rotate(1.5deg);
+  }
+  100% {
+    transform: rotate(-1.5deg);
+  }
+}
+
+.inner-cloud-container2 {
+  margin: 10px;
+  height: calc(100% - 20px); /* 100% minus top and bottom margins */
+  width: calc(100% - 20px);  /* 100% minus left and right margins */
+  box-sizing: border-box;
+  border: 0.2rem solid #2f4f57;
+  padding: 10px;
+  border-radius: 20px;
+  background: #d4e5e929;
+  backdrop-filter: blur(5px);
+  animation: cloudTilt 6s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes cloudTilt {
+  0% {
+    transform: rotate(1.5deg);
+  }
+  50% {
+    transform: rotate(-1.5deg);
+  }
+  100% {
+    transform: rotate(1.5deg);
+  }
+}
+
+.my-caption-font {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  line-height: 1.2;
+  font-family: Impact, sans-serif;
+  font-weight: 100;
+  color: #2f4f57;
+  text-shadow: 
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+.my-caption-font-skill {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  line-height: 1.2;
+  font-family: Impact, sans-serif;
+  font-weight: 100;
+  color: #2f4f57;
+  text-shadow: 
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
+}
+
+.my-description-font {
+  color: #2f4f57;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-family: 'Lucida Console', monospace;
+  letter-spacing: 1px;  
+  font-weight: 700;
+}
+
+.description-right {
+  text-align: right;
+}
+
+.project-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* END of Body CSS */
+
+/* START OF Popup CSS */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.0);
+    z-index: 999;
+    transition: background 0.1s ease;
+}
+        .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 1000;
+    cursor: pointer;
+
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px); 
+    width: 40%;
+    margin: 10px 10px;
+    text-align: center;
+    padding: 25px 20px 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgba(176, 195, 207, 0.712);
+    border-radius: 8px;
+    transition: transform 0.1s ease;
+}
+
+.popup.show {
+    transform: translate(-50%, -50%) scale(1);
+}
+        .close {
+    float: right;
+    font-size: 20px;
+}
+/* END OF Popup CSS */
+
+
+
+/* START OF Flexbox CSS */
+.flex {
+  display: flex;
+  gap: 50px;      /* space between items */
+  flex-wrap: wrap; /* prevents overflow */
+}
+
+.col-md-4 {
+  flex: 0 0 calc(31.333% - 10px);
+}
+
+.col-md-8 {
+  flex: 0 0 calc(65.666% - 10px);
+}
+
+.colmd1 {
+  width: 1100px;
+}
+
+.colmd2 {
+  width: 400px;
+}
+/* END OF Flexbox CSS */
+
+
+/* START OF footer CSS */
+.separation-margin {
+  margin: 70px 0px 0px 0px;
+}
+
+/* END OF footer CSS */
